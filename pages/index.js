@@ -37,13 +37,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>A marathon</title>
+        <title>Run a marathon</title>
         <meta name="description" content="A marathon running" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>MARATHON</h1>
+        <h1>RUN A MARATHON</h1>
         <div className={styles.mainImageContainer}>
           <Image
             src={mainImage}
