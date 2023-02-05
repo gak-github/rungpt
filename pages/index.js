@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import mainImage from '@/assets/images/main_image.jpg'
 import { Form, Button, Spinner } from 'react-bootstrap'
-import { FormEvent, useState } from 'react'
+import { useState } from 'react'
 
 export default function Home() {
 
@@ -15,6 +15,7 @@ export default function Home() {
     e.preventDefault();
     const formData = new FormData(e.target);
     const prompt = formData.get("prompt")?.toString().trim();
+    console.log("======prompt====", prompt);
     if (prompt) {
       try {
         setQuote("");
