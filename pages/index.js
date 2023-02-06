@@ -15,7 +15,6 @@ export default function Home() {
     e.preventDefault();
     const formData = new FormData(e.target);
     const prompt = formData.get("prompt")?.toString().trim();
-    console.log("======prompt====", prompt);
     if (prompt) {
       try {
         setQuote("");
