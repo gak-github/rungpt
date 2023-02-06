@@ -37,10 +37,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Run a marathon</title>
-        <meta name="description" content="A marathon running" />
+        <title>Quote generator for running</title>
+        <meta name="description" content="This app is integrated with an Open AI API (GPT-3), built on Next.js and deployed in Netlify" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/leaf.png" />
       </Head>
       <main className={styles.main}>
         <h1>RUN A MARATHON</h1>
